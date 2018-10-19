@@ -1,7 +1,6 @@
 const app = require('./app');
 
-const isDeveloping = process.env.NODE_ENV !== 'production';
-const port = isDeveloping ? 4444 : process.env.PORT;
+const port = process.env.PORT || 4444;
 
 app.listen(port, '0.0.0.0', function onStart(err) {
   if (err) {

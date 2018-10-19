@@ -1,3 +1,16 @@
+import { STOP_LOADING, TRIGGER_LOADING_SAGA } from './types';
+
+export const setLoadingDetails = data => {
+  return {
+    type: STOP_LOADING,
+    data
+  }
+}
+
+export const triggerLoadingSaga = () => {
+  return { type: TRIGGER_LOADING_SAGA };
+};
+
 let nextTodoId = 0
 export const addTodo = (text) => {
   return {

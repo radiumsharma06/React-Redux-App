@@ -1,17 +1,12 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import { Route, Switch } from 'react-router-dom';
+import Heading from '../Heading';
 import ContentArea from '../ContentArea';
-import HelloWorld from '../HelloWorld';
-import Redirect from '../Redirect';
-import Todos from '../Todos';
-import Header from '../Header';
+import './App.style.scss';
 
-const App = () => (
-  <div>
-    <Header />
-    <ContentArea />
-  </div>
-);
+const App = () =>
+<div className='app-area'>
+  <Heading headingText={'React-Redux App'} />,
+  <ContentArea />
+</div>;
 
 export default App;
