@@ -1,4 +1,4 @@
-# Welcome to 3D Frontend App
+# Welcome to React Frontend App
 
 ## Getting Started
 
