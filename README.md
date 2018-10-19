@@ -1,4 +1,5 @@
-# Welcome to React Frontend App
+# React-Redux-App
+This repo contains implementaion of react with redux  in an awesome way
 
 ## Getting Started
 
